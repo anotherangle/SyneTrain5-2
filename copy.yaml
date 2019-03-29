@@ -1,5 +1,6 @@
 ---
 - hosts: web
+  become_user: root
   tasks:
     - name: copy the file
       copy:
