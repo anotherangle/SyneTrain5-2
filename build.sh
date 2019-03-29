@@ -1,4 +1,5 @@
 #!/bin/bash
 echo "This is the Jenkins Training Session"
-df
+whoami
+ps
 echo "Script End"
